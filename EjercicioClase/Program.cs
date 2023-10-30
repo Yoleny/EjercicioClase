@@ -16,6 +16,38 @@ Console.WriteLine("superPoder: " + superHeroes.superPoder);
 Console.WriteLine("Descripcion: " + superHeroes.descripcion);
 Console.WriteLine("Es nivel:" + superHeroes.nivel);
 
+
+superHeroes.nombre = " Batman ";
+superHeroes.identidadSecreta = " Bruce Wayne";
+superHeroes.ciudad = "Ciudad Gotica ";
+superHeroes.superPoder = "No tiene";
+superHeroes.descripcion = " Recurre a su intelecto, asi como aploaccionesncientificas para crear armar y herramientas";
+superHeroes.nivel = " 6 ";
+
+Console.WriteLine("Nombre: " + superHeroes.nombre);
+Console.WriteLine("identidadSecreta:" + superHeroes.identidadSecreta);
+Console.WriteLine("ciudad:" + superHeroes.ciudad);
+Console.WriteLine("Puede volar:" + superHeroes.puedeVolar);
+Console.WriteLine("superPoder: " + superHeroes.superPoder);
+Console.WriteLine("Descripcion: " + superHeroes.descripcion);
+Console.WriteLine("Es nivel:" + superHeroes.nivel);
+
+superHeroes.nombre = " Doctor Strange ";
+superHeroes.identidadSecreta = " Stephen Strange";
+superHeroes.ciudad = "Ciudad Gotica ";
+superHeroes.superPoder = " Poderes misticos";
+superHeroes.descripcion = " Teletranspoirtacion, generacion de iluiones y proyeccion de energia";
+superHeroes.nivel = " 8 ";
+
+
+Console.WriteLine("Nombre: " + superHeroes.nombre);
+Console.WriteLine("identidadSecreta:" + superHeroes.identidadSecreta);
+Console.WriteLine("ciudad:" + superHeroes.ciudad);
+Console.WriteLine("Puede volar:" + superHeroes.puedeVolar);
+Console.WriteLine("superPoder: " + superHeroes.superPoder);
+Console.WriteLine("Descripcion: " + superHeroes.descripcion);
+Console.WriteLine("Es nivel:" + superHeroes.nivel);
+
 public class SuperHeroe
 {
     public string nombre { get; set; }
